@@ -81,3 +81,18 @@ print(ad_post.display())
 instagram_feed = [image_post, reel_post, ad_post]
 for post in instagram_feed: 
     print(post.display())
+
+class Instagram:
+    def post_story(self, content):
+        return f"Posting a story on Instagram: {content}"
+class Whatsapp:
+    def post_status(self, text):
+        return f"Posting a status on WhatsApp: {text}"
+
+def share_content(app_object, data):
+    if isinstance(app_object, Instagram):
+        return app_object.post_story(data)
+    elif isinstance(app_object, Whatsapp):
+        return app_object.post_status(data)
+    else:
+        return "Unsupported app."
