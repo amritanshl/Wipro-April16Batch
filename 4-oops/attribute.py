@@ -6,7 +6,7 @@ class Car:
     @property
     def speed_display(self):
         return self.__speed
-    
+
 my_car11 = Car("Toyota", 120)
 print(my_car11.speed_display)  # Accessing the protected attribute through a property method
 
