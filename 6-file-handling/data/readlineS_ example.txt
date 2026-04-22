@@ -1,0 +1,20 @@
+The Countdown Clock Calculate the exact remaining hours, minutes, and seconds from now until the end of the current day (midnight).
+Sample Output: 14 hours, 22 minutes, and 05 seconds remaining.
+The Shift Worker A security guard starts their shift at 22:30 and works for 8 hours and 45 minutes. Calculate their clock-out time using timedelta.
+Sample Output: Shift ends at: 07:15
+Human-Readable Duration Convert a raw integer of seconds, e.g., 93,750 seconds, into a string formatted as HH:MM:SS.
+Sample Output: 26:02:30
+12 to 24-Hour Converter Write a logic that takes a string "08:45 PM" and converts it into a 24-hour format object, then prints it as "20:45".
+Sample Output: 20:45
+Meeting Across Time Zones If a meeting is set for 14:00 (2:00 PM) in London (UTC+0), what is the time in New York (UTC-5)? Assume you are using a simple timedelta offset.
+Sample Output: Meeting time in New York: 09:00
+The Time Difference Tracker Find the difference between two timestamps: "09:15:00" and "13:45:30". Output the total difference in total minutes only.
+Sample Output: Total difference: 270.5 minutes
+Rounding the Clock Take the current time and "round" it to the nearest full hour. If it's 10:31, it should become 11:00. If it's 10:29, it should become 10:00.
+Sample Output (for 10:31): Rounded time: 11:00:00
+Microsecond Precision Generate a timestamp that includes the current hour, minute, second, and exactly the first 3 digits of the microseconds (milliseconds).
+Sample Output: Current Time: 14:22:05.123
+Business Hours Validator Check if a specific time (e.g., 17:35) falls within business hours (09:00 to 17:00). Return a boolean or a message.
+Sample Output: Office Status: Closed
+The "Pace" Calculator A runner completes a 10km race in 52 minutes and 10 seconds. Calculate their average time per kilometer (pace) and format it as MM:SS.
+Sample Output: Average Pace: 05:13 per km
