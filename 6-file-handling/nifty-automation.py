@@ -25,3 +25,5 @@ while True:
         f.write(f"FileLocation: {absolute_path} \n")
         print(f"FileLocation: {absolute_path} \n")
     time.sleep(5)
+
+    os

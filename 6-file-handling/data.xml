@@ -1,0 +1,54 @@
+<employees>
+    <employee id="emp001">
+        <name>John Doe</name>
+        <age>30</age>
+        <salary>75000.0</salary>
+        <email>john.doe.example.com</email>
+        <is_active>true</is_active>
+        <hobbies>
+            <hobby>reading</hobby>
+            <hobby>traveling</hobby>
+            <hobby>coding</hobby>
+        </hobbies>
+        <address>
+            <presentAddress>
+                <street>123 Main St</street>
+                <city>Anytown</city>
+                <state>CA</state>
+                <zip_code>12345</zip_code>
+            </presentAddress>
+            <permanentAddress>
+                <street>456 Elm St</street>
+                <city>NYC</city>
+                <state>NY</state>
+                <zip_code>67890</zip_code>
+            </permanentAddress>
+        </address>
+    </employee>
+    <employee id="emp002">
+        <name>Jane Smith</name>
+        <age>28</age>
+        <salary>68000.0</salary>
+        <email>jane.smith.example.com</email>
+        <is_active>false</is_active>
+        <hobbies>
+            <hobby>painting</hobby>
+            <hobby>hiking</hobby>
+            <hobby>cooking</hobby>
+        </hobbies>
+        <address>
+            <presentAddress>
+                <street>789 Oak St</street>
+                <city>Sometown</city>
+                <state>TX</state>
+                <zip_code>54321</zip_code>
+            </presentAddress>
+            <permanentAddress>
+                <street>321 Pine St</street>
+                <city>LA</city>
+                <state>CA</state>
+                <zip_code>98765</zip_code>
+            </permanentAddress>
+        </address>
+    </employee>
+</employees>

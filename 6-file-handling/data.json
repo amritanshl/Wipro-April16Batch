@@ -1,0 +1,54 @@
+{
+    "emp001": {
+        "name": "John Doe",
+        "age": 30,
+        "salary": 75000.0,
+        "email": "john.doe.example.com",
+        "is_active": true,
+        "hobbies": [
+            "reading",
+            "traveling",
+            "coding"
+        ],
+        "address": {
+            "presentAddress": {
+                "street": "123 Main St",
+                "city": "Anytown",
+                "state": "CA",
+                "zip_code": "12345"
+            },
+            "permanentAddress": {
+                "street": "456 Elm St",
+                "city": "NYC",
+                "state": "NY",
+                "zip_code": "67890"
+            }
+        }
+    },
+    "emp002": {
+        "name": "Jane Smith",
+        "age": 28,
+        "salary": 68000.0,
+        "email": "jane.smith.example.com",
+        "is_active": false,
+        "hobbies": [
+            "painting",
+            "hiking",
+            "cooking"
+        ],
+        "address": {
+            "presentAddress": {
+                "street": "789 Oak St",
+                "city": "Sometown",
+                "state": "TX",
+                "zip_code": "54321"
+            },
+            "permanentAddress": {
+                "street": "321 Pine St",
+                "city": "LA",
+                "state": "CA",
+                "zip_code": "98765"
+            }
+        }
+    }
+}
