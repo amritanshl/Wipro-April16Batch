@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<college>
+	<student id="111">
+		<name>Amritansh Lal</name>
+		<major>Computers</major>
+		<gpa>3.9</gpa>
+	</student>
+	<student id="222">
+		<name>Aravind kumar</name>
+		<major>Accounts</major>
+		<gpa>2.8</gpa>
+	</student>
+</college>
