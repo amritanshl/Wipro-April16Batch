@@ -1,24 +1,24 @@
-# import requests, httpx
-# import json
-# from urllib.parse import urlparse, parse_qs
+import requests, httpx
+import json
+from urllib.parse import urlparse, parse_qs
 
-# client = requests.Session()
+client = requests.Session()
 
-# client_response =client.get('https://dogapi.dog/api/v2/breeds')
+client_response =client.get('https://dogapi.dog/api/v2/breeds')
 
-# parsed_url = urlparse('https://dogapi.dog/api/v2/breeds/f9643a80-af1d-422a-9f15-18d466822053')
-# print(f"scheme: {parsed_url.scheme}")
-# print(f"path : {parsed_url.path}")
-# response = requests.get('https://dogapi.dog/api/v2/breeds')
+parsed_url = urlparse('https://dogapi.dog/api/v2/breeds/f9643a80-af1d-422a-9f15-18d466822053')
+print(f"scheme: {parsed_url.scheme}")
+print(f"path : {parsed_url.path}")
+response = requests.get('https://dogapi.dog/api/v2/breeds')
 
-# if response.status_code ==200:
-#     with open("sample.json", "w") as f:
+if response.status_code ==200:
+    with open("sample.json", "w") as f:
     
-#         json.dump(client_response.json(), f, indent=4)
-#        # f.write(response.text)
-#         print(f"status code is {response.status_code}")
-# else:
-#     print(f"status code is {response.status_code}")
+        json.dump(client_response.json(), f, indent=4)
+       # f.write(response.text)
+        print(f"status code is {response.status_code}")
+else:
+    print(f"status code is {response.status_code}")
 
 import requests, json
 

@@ -5,6 +5,7 @@ host = "dogapi.dog"
 conn=http.client.HTTPSConnection(host)
 
 path = "/api/v2/breeds"
+
 conn.putrequest("GET", path)
 conn.putheader("Accept","application/json")
 conn.endheaders()
@@ -28,3 +29,4 @@ if response.status==200:
     print(json_payload)
 else:
     print("not found")
+
