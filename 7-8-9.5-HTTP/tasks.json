@@ -1,0 +1,6 @@
+{
+    "1": {"item": "Buy groceries", "completed": false},
+    "2": {"item": "Finish FastAPI project", "completed": true},
+    "3": {"item": "Go to the gym", "completed": false},
+    "4": {"item": "Read a book", "completed": false}
+}
