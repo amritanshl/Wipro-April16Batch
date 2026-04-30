@@ -1,19 +1,21 @@
 
 #blueprint for a Car class
 class Car:
-    def __init__(self, brand, model, year, color="Unknown"):
-        self.brand = brand
-        self.model = model
-        self.year = year
-        self.color = color
+    wheels = 4
+    def __init__(amrit, brand, model, year, color="Unknown"):
+        amrit.brand = brand
+        amrit.model = model
+        amrit.year = year
+        amrit.color = color
 
-    def __str__(self):
-        return f"{self.year} {self.brand} {self.model} {self.color}"
+    def __str__(amrit):
+        return f"{amrit.year} {amrit.brand} {amrit.model} {amrit.color}"
     
 car1 = Car("Toyota", "Camry", 2020) #isntantiating the class
 print(car1) 
 car2 = Car("Honda", "Civic", 2019, "Blue")
-print(car2)
+print(car2.wheels)
+# print(car2.color)
 del car1
 try:
     print(car1)  # This will raise an error since car1 has been deleted

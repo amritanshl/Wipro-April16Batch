@@ -11,6 +11,8 @@ for i in range(len(students)):
 
 # for loop with range range(start, stop, step)
 print("Print numbers from 5 to 9:")
-for i in range(2,20,3):
+for i in range(2,20):
     print(i)
 
+a,b,c =map(input("enter it").split())
+d =list(map(input("enter it").split()))

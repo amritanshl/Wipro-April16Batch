@@ -13,8 +13,15 @@ class ElectricCar(Car):
         super().__init__(brand, model)  # Call the constructor of the base class
         self.battery_capacity = battery_capacity
         
-    def charge(self):
+    def start(self):
         return f"{self.brand} {self.model} is charging with a {self.battery_capacity} kWh battery."
+class FuelCar(Car):
+    def __init__(self, brand, model, fuel_capacity):
+        super().__init__(brand, model)  # Call the constructor of the base class
+        self.fuel_capacity = fuel_capacity
+        
+    def start(self):
+        return f"{self.brand} {self.model} is charging with a {self.fuel_capacity} 200L"
 
 basic_car = Car("Toyota", "Corolla")
 electric_car = ElectricCar("Tesla", "Model S", 100)

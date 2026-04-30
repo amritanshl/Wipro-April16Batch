@@ -8,12 +8,12 @@ print("-------------------------------------------------------------------------
 print(response.json()['login'])
 
 # #-------------------------------------------------------------------------
-# import http.client, json
-# conn = http.client.HTTPSConnection("api.github.com")
-# headers = {"User-Agent": "Awesome-Octocat-App"}
-# conn.request("GET", "/users/octocat",headers=headers)
-# res = conn.getresponse()
-# raw_data =res.read().decode("utf-8")
-# data = json.loads(raw_data)
-# print(data)
+import http.client, json
+conn = http.client.HTTPSConnection("api.github.com")
+headers = {"User-Agent": "Awesome-Octocat-App"}
+conn.request("GET", "/users/octocat",headers=headers)
+res = conn.getresponse()
+raw_data =res.read().decode("utf-8")
+data = json.loads(raw_data)
+print(data)
 

@@ -19,6 +19,7 @@ class Adder(Calculator):
         print(f"The sum is: {result}")
 
 class Multiplier(Calculator):
+    
     def calculate(self, a, b):
         result = a * b
         print(f"Multiplying {a} and {b} gives {result}")
@@ -37,7 +38,8 @@ class PercentageCalculator(Calculator):
         print(f"{a} is {result}% of {b}")
         return result
 class sample (Calculator):
-    pass
+    def calculate(self, a, b):
+       pass
 
 # Create instances of the calculators
 adder = Adder() 
